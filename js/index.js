@@ -7,7 +7,7 @@ window.onload = () => {
     /**
      * 1. Registering SW.
      */
-    navigator.serviceWorker.register('../serviceWorker.js').then(res => {
+    navigator.serviceWorker.register('../serviceWorkerSite.js').then(res => {
         console.log(`Service Worker Registered...`, res);
     }).catch(error => {
         console.error(error);
